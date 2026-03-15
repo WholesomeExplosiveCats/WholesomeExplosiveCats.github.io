@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>Eric Wang: Test Frontend</title>
+</head>
+
+<body style="background-image: url('gradiant.avif'); background-size: cover; background-attachment: fixed;">
+
+    <div style="display:flex; flex-direction:column; justify-content:center; align-items:center; height:100vh; text-align:center;">
+        <h1><u>Welcome to Free Money!</u></h1>
+        <h3>Terms and Conditions Apply!</h3>
+        <p>This is a test</p>
+    </div>
+
+    <div style="display:flex; flex-direction:column; justify-content:center; align-items:center; gap:10px;"> 
+
+        <button id="TOS" style="background:black; color:white; font-size:20px; padding:10px 20px;">
+            I agree to the terms above.
+        </button>
+
+        <div>
+            <h6 id="H6" style="font-size:80px; display:none; justify-content:center;">Click Below!</h6>
+            <p id="P" style="font-size:20px; display:none; justify-content:center;">Why Hesitate?</p>
+        </div>
+
+        <div id="moneyContainer" style="display:none; flex-direction:column; justify-content:center; align-items:center; gap:10px;">
+            <button id="Button" style="background:green; color:white; font-size:20px; padding:10px 20px;">
+                Click for Free Money!
+            </button>
+            <img src="200.gif" id="GIF" style="display:none;">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
